@@ -1,0 +1,339 @@
+/*Make sure your selectors are very specific, you can accidentally overide builder css if you are not careful*/
+/*Do not edit positioning, width, height in CSS, set that in the markup*/
+/*CSS Changes, are somewhat permanent, user cannot change these, they can overide them via element inline style, but thats about it*/
+
+/* site */
+/*Make sure your selectors are very specific, you can accidentally overide builder css if you are not careful*/
+/*Do not edit positioning, width, height in CSS, set that in the markup*/
+/*CSS Changes, are somewhat permanent, user cannot change these, they can overide them via element inline style, but thats about it*/
+
+/* site */
+
+.techos.default.home{
+	background: url('assets/techos-home-bg.jpg') no-repeat top center;
+}
+.techos.default.about{
+	background: url('assets/techos-about-bg.jpg') no-repeat top center;
+}
+.techos.default.services{
+	background: url('assets/techos-services-bg.jpg') no-repeat top center;
+}
+.techos.default.contact{
+	background: url('assets/techos-contact-bg.jpg') no-repeat top center;
+}
+.techos.default .text-plugin{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 24px;
+	color: #fff;
+}
+
+.techos.default h2,
+.techos.default h3,
+.techos.default h4,
+.techos.default h5,
+.techos.default h6{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: normal;
+	margin-top: 0;
+	color: #fff;
+}
+.techos.default h1{
+	font-family: 'Rationale', sans-serif;
+	font-size: 52px;
+	margin-top:10px;
+}
+.techos.default h2{
+	font-size: 41px;
+}
+.techos.default h3{
+	font-size: 30px;
+}
+.techos.default h4{
+	font-size: 26px;
+}
+.techos.default h5{
+	font-family: 'Gudea', sans-serif;
+	font-size: 22px;
+}
+.techos.default h6{
+	font-family: 'Gudea', sans-serif;
+	font-size: 20px;
+}
+
+.techos.default .header-phone{
+	font-size: 30px;
+}
+.techos.default .logo{
+	border: 7px solid #fff;
+}
+.techos.default .divider{
+	background: #fff;
+}
+.techos.default .home-rounded{
+	border-radius: 90px;
+}
+.techos.default .dark{
+	color: #464646;
+}
+.techos.default .border-dark{
+	border:2px solid #464646;
+}
+.techos.default .divider2{
+	background: #464646;
+}
+.techos.default .small-text{
+	font-size: 22px;
+}
+
+.techos.default .center-align{
+	text-align: center;
+}
+.techos.default .right-align{
+	text-align: right;
+}
+.techos.default .white{
+	color: #ffffff;
+}
+
+
+
+/****************/
+/* neo main nav */
+/****************/
+.techos.default .navigation-2-plugin .neo-asset-inner ul {
+	font-family: Quicksand, sans-serif;
+}
+.techos.default .navigation-2-plugin.main-nav-fixed-plugin .neo-asset-inner > ul > li {
+	width: 151px;
+}
+.techos.default .navigation-2-plugin .neo-asset-inner > ul > li {
+	padding-top: 11px;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	margin-right: 5px;
+	margin-bottom: 0;
+	background-color: transparent;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: left;
+
+	border-left-color: rgb(51, 51, 51);
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-color: rgb(51, 51, 51);
+	border-right-style: none;
+	border-right-width: 0;
+	border-bottom-color: rgb(51, 51, 51);
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-top-color: rgb(51, 51, 51);
+	border-top-style: none;
+	border-top-width: 0;
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+}
+.techos.default .navigation-2-plugin .neo-asset-inner > ul > li > a {
+	color: #fff;
+}
+.techos.default .navigation-2-plugin .neo-asset-inner > ul > li.k-state-hover {
+	background-color: transparent;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: left;
+	/*Esteban*/
+	padding-top: 0;
+	/*END*/
+/*
+	border-left-color: rgb(46, 179, 166);
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-color: rgb(46, 179, 166);
+	border-right-style: none;
+	border-right-width: 0;
+	border-bottom-color: rgb(46, 179, 166);
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-top-color: rgb(46, 179, 166);
+	border-top-style: none;
+	border-top-width: 0;
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+*/
+}
+.techos.default .navigation-2-plugin .neo-asset-inner > ul > li.k-state-hover > a {
+	color: #fff;
+}
+.techos.default .navigation-2-plugin .neo-asset-inner > ul > li.k-state-active {
+	background-color: transparent;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: left;
+	/*Esteban*/
+	padding-top: 0;
+	/*END*/
+/*
+	border-left-color: rgb(16, 196, 178);
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-color: rgb(16, 196, 178);
+	border-right-style: none;
+	border-right-width: 0;
+	border-bottom-color: rgb(16, 196, 178);
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-top-color: rgb(16, 196, 178);
+	border-top-style: none;
+	border-top-width: 0;
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+*/
+}
+.techos.default .navigation-2-plugin .neo-asset-inner > ul > li.k-state-active > a {
+	color: #fff;
+}
+
+/***************/
+/* neo sub nav */
+/***************/
+.techos.default .navigation-2-plugin.sub-nav-fixed-plugin ul ul > li {
+width: 130px;
+}
+.techos.default .navigation-2-plugin ul ul > li {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin-bottom: 0;
+	background-color: #fff;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	text-align: left;
+
+	border-left-color: rgb(51, 51, 51);
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-color: rgb(51, 51, 51);
+	border-right-style: none;
+	border-right-width: 0;
+	border-bottom-color: #454545;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-top-color: rgb(51, 51, 51);
+	border-top-style: none;
+	border-top-width: 0;
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+}
+.techos.default .navigation-2-plugin ul ul > li > a {
+	color: rgb(0, 0, 0);
+}
+.techos.default .navigation-2-plugin ul ul > li.k-state-hover {
+	background-color: #fff;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: left;
+
+	border-left-color: rgb(46, 179, 166);
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-color: rgb(46, 179, 166);
+	border-right-style: none;
+	border-right-width: 0;
+	border-bottom-color: #454545;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-top-color: rgb(46, 179, 166);
+	border-top-style: none;
+	border-top-width: 0;
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+}
+.techos.default .navigation-2-plugin ul ul > li.k-state-hover > a {
+	color: #000;
+}
+.techos.default .navigation-2-plugin ul ul > li.k-state-active {
+	background-color: #fff;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: left;
+
+	border-left-color: rgb(16, 196, 178);
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-color: rgb(16, 196, 178);
+	border-right-style: none;
+	border-right-width: 0;
+	border-bottom-color: #454545;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-top-color: rgb(16, 196, 178);
+	border-top-style: none;
+	border-top-width: 0;
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+}
+.techos.default .navigation-2-plugin ul ul > li.k-state-active > a {
+	color: #000;
+} 
+
+/* CONTACT */
+/*header*/
+
+/* labels style */
+.techos.default .web_com_custom_form label{
+	font-weight: normal;
+	margin-bottom: 0;
+	color: #fff;
+}
+
+/*CUSTOM*/
+/* first & last name */
+.techos.default .web_com_custom_form .FirstName label,
+.techos.default .web_com_custom_form .LastName label{
+	font-size: 12px !important;
+	color: #fff;
+}
+.techos.default .web_com_custom_form input[type='text'],
+.techos.default .web_com_custom_form textarea{
+	border-radius: 4px !important;
+	border: 2px solid #dadada;
+	background:  #fff; 
+}
+
+.techos.default .web_com_custom_form input[type='submit']{
+	color: #fff;
+	background: #000; 
+	font-size: 16px;
+	padding: 3px 25px;
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+
+.techos.default textarea.form-element{
+	height: 70px;
+}
+
+.techos.default .form-element-wrapper{
+	padding: 0 0 5px;
+}
