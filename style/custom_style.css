@@ -14,19 +14,21 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   margin: 0 auto;
+  width: 100%;
   overflow-x: hidden;
   top: 0;
 }
 
 /*------------Header Style-----------------*/
 
-.header {
-  height: 50px;
+#header {
+  height: 61px;
 }
 
 .navbar-default {
   background-color: #dfdfdf;
   color: #fff;
+  position: relative;
 }
 
 .navbar-brand img{
@@ -289,9 +291,6 @@ body {
 }
 
 @media only screen and (max-width: 768px) and (min-width: 520px){
-  #header{
-    height: 98px;
-  }
   .navbar-brand {
     width: 200px;
     height: 65px;
@@ -334,12 +333,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
 
 @media only screen and (max-width: 1024px) and (min-width: 769px){
-  #header{
-    height: 110px;
-  }
-
   .navbar-brand {
-    height: 110px;
     width: 250px;
   }
   .navbar {
@@ -487,7 +481,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
   }
   .banner-text{
     top: 40px;
-    width: 30%;
+    width: 35%;
   }
   .banner-text p{
     font-size: 12px;
@@ -502,7 +496,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 @media only screen and (max-width: 1024px) and (min-width: 769px){
   .banner-text{
     top: 30px;
-    width: 30%;
+    width: 35%;
 
   }
   .banner-text p{
@@ -566,7 +560,6 @@ section {
 .devider {
   position: relative;
   top:75px;
-  width: 2%;
   float: left;
 }
 
@@ -1301,22 +1294,9 @@ textarea.form-control {
   }
 }
 
-.custom-learning .banner-text {
-  width: 30%;
-}
 
-.custom-learning .banner-text h4 {
-  color: #fff;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 45px;
-  text-transform:none;
-  margin-bottom: 20px;
-}
-
-.custom-learning .banner-text p {
-  color: #fff;
-  font-size: 32px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  line-height: 35px;
+@media (min-width: 992px) {
+  .row .col-md-4 {
+      width: 33%;
+  }
 }
